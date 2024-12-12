@@ -18,9 +18,10 @@ const section2 = gsap.timeline(
     {
         scrollTrigger: {
             trigger: '.section2',
+            start: 'center center',
             end: 'center top',
             markers: true,
-            toggleActions: 'play reset play reset'
+            toggleActions: 'play reset play none'
         }
     }
 )
