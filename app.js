@@ -20,8 +20,7 @@ const section2 = gsap.timeline(
             trigger: '.section2',
             start: 'center center',
             end: 'center top',
-            markers: true,
-            toggleActions: 'play reset play none'
+            toggleActions: 'play none none reverse'
         }
     }
 )
